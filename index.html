@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <link rel="icon" href="img/browser-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <title>Bookworm</title>
+  </head>
+  <body>
+    <header>
+      <!--------------------------------------------------->
+      <!------------------HEADER CONTAINER---------------->
+
+      <section class="container-xxl gx-0">
+        <!--------------------------------------------------->
+        <!---------PAGE TITLE AND SOCIAL MEDIA ICONS ------------>
+
+        <section class="header row py-3 px-3 px-sm-5 align-items-center">
+          <div class="col-9 col-md-10 align-items-center">
+            <h1>Bookworm <i class="bi bi-book"></i></h1>
+            <h6 class="text-secondary">Everything books</h6>
+          </div>
+
+          <div class="col-3 col-md-2 text-end">
+            <h4 class="d-flex flex-column flex-sm-row justify-content-between">
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-instagram fa-lg"></i>
+              </a>
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-facebook fa-lg"></i>
+              </a>
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-envelope fa-lg"></i>
+              </a>
+            </h4>
+          </div>
+        </section>
+
+        <!--------------------------------------------------->
+        <!---------------------NAV BAR --------------------->
+
+        <section class="row py-2">
+          <section class="col-12 px-0">
+            <nav class="navbar navbar-expand-sm navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="collapse navbar-collapse justify-content-center border-top border-bottom border-secondary"
+                id="toggleMobileMenu"
+              >
+                <ul class="navbar-nav">
+                  <li>
+                    <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">About us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Bookshop</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Articles</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </section>
+        </section>
+      </section>
+    </header>
+
+    <main>
+      <!--------------------------------------------------->
+      <!---------------------BREADCRUMBS --------------------->
+
+      <section class="row pb-2 px-3 px-sm-5 gx-0">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#" class="text-dark">Home</a>
+            </li>
+
+            <li class="breadcrumb-item">
+              <a href="#" class="text-dark">Articles</a>
+            </li>
+
+            <li class="breadcrumb-item active" aria-current="page">
+              The Red Planet review
+            </li>
+          </ol>
+        </nav>
+      </section>
+
+      <!--------------------------------------------------->
+      <!---------------------ARTICLE--------------------->
+
+      <article class="container-xxl gx-0">
+        <section class="row py-2 px-3 px-sm-5">
+          <section
+            class="article__col--primary col-lg-8 col-12 d-flex flex-column"
+          >
+            <h1>The Red Planet: sci-fi at its brilliant best</h1>
+
+            <aside class="author">
+              <img src="img/author-profile.jpg" class="author__img img-fluid" />
+              <div>
+                <span>Arthur Clarke</span>
+                <span>
+                  <a href="#" class="link-dark text-decoration-none">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                  <a href="#" class="link-dark text-decoration-none">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </span>
+                <p>Feb 11 2023</p>
+              </div>
+            </aside>
+
+            <figure>
+              <img
+                src="img/article-img-lg.jpg"
+                srcset="
+                  img/article-img-lg.jpg 1800w,
+                  img/article-img-md.jpg 1080w,
+                  img/article-img-sm.jpg  720w
+                "
+                sizes="(min-width: 600px) 1800px, (min-width: 400px) 1080px, 720px"
+                class="img-fluid"
+                alt="The red planet of the book"
+              />
+              <figcaption>A mysterious world awaits in the book.</figcaption>
+            </figure>
+
+            <section class="container-fluid py-4 px-0">
+              <section>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam alias veritatis numquam aspernatur quos sequi officia?
+                  Tempora alias suscipit tenetur dolore, iste repellendus non
+                  debitis laudantium nesciunt nostrum labore ipsum? Lorem ipsum
+                  dolor, sit amet consectetur adipisicing elit. Tempora quam
+                  iure eaque adipisci recusandae sapiente expedita repudiandae
+                  sequi quibusdam, nostrum voluptas corrupti mollitia maxime vel
+                  magni quod, praesentium temporibus neque.
+                </p>
+              </section>
+
+              <section>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus cum aliquid ipsam ipsa, unde eligendi rerum illo quod
+                  explicabo dolores vero, numquam nobis autem deserunt neque.
+                  Autem sunt quibusdam dolorem? Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Tenetur delectus recusandae
+                  reiciendis dolorem ullam obcaecati iste, sapiente iusto
+                  doloremque fugit illo sint. Eius atque quo cumque, dolorum
+                  deserunt veritatis ipsam.
+                </p>
+              </section>
+
+              <section class="paragraph">
+                <figure
+                  class="paragraph__blockquote--right d-flex align-items-center px-3 py-3 border border-secondary bg-light"
+                >
+                  <blockquote cite="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </blockquote>
+                </figure>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum molestiae vitae error, pariatur cupiditate officia
+                  a incidunt blanditiis ab, ipsam beatae sit magnam asperiores
+                  consequatur amet porro reiciendis quae recusandae? Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Laboriosam
+                  dolores numquam eum, repellendus ad deserunt voluptas
+                  explicabo ipsa dolorem earum voluptatem? Officiis quidem
+                  consequuntur rerum. At odio placeat facere ad.
+                </p>
+              </section>
+
+              <section>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Numquam, odit quam? Exercitationem error officia quibusdam
+                  tempore, inventore vel dolores blanditiis autem esse magnam
+                  cupiditate deserunt excepturi commodi maiores quasi id? Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                  quibusdam illum magnam quae earum esse. Quos eum sunt,
+                  suscipit odit eveniet tempore maiores iusto non consequuntur
+                  fuga blanditiis quae tempora?
+                </p>
+              </section>
+
+              <section>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                  recusandae, perspiciatis quam ducimus quibusdam vero possimus
+                  incidunt veniam eaque, aliquid adipisci ullam hic, impedit
+                  repellat excepturi fugiat voluptate eveniet illo? Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. A vitae pariatur
+                  id eligendi nihil suscipit, quisquam, debitis corporis cumque
+                  dolorem ipsa sapiente consequuntur? In voluptatum doloremque
+                  placeat impedit, odit deserunt.
+                </p>
+              </section>
+
+              <section class="paragraph">
+                <figure
+                  class="paragraph__blockquote--left d-flex align-items-center px-3 py-3 border border-secondary bg-light"
+                >
+                  <blockquote cite="#">
+                    Numquam eum, repellendus ad deserunt voluptas explicabo ipsa
+                  </blockquote>
+                </figure>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum molestiae vitae error, pariatur cupiditate officia
+                  a incidunt blanditiis ab, ipsam beatae sit magnam asperiores
+                  consequatur amet porro reiciendis quae recusandae? Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Laboriosam
+                  dolores numquam eum, repellendus ad deserunt voluptas
+                  explicabo ipsa dolorem earum voluptatem? Officiis quidem
+                  consequuntur rerum. At odio placeat facere ad.
+                </p>
+              </section>
+
+              <section>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Necessitatibus excepturi quae fugit obcaecati non ex optio
+                  officiis! Rerum ducimus impedit esse consectetur, asperiores
+                  eius, perferendis accusantium dolorum ipsum optio iste. Lorem,
+                  ipsum dolor sit amet consectetur adipisicing elit. Omnis sint
+                  dolores deserunt odio fugit alias perspiciatis vel molestiae
+                  modi facilis rem ipsa, animi aperiam quam laborum tempore!
+                  Vitae, sed nihil?
+                </p>
+              </section>
+            </section>
+          </section>
+
+          <section class="col-lg-4 col-12 aside">
+            <section class="row">
+              <section class="col-12 col-md-6 col-lg-12 pb-3">
+                <h4 class="py-3 mb-3 text-center bg-warning rounded">
+                  Most Read
+                </h4>
+
+                <section class="mb-3 bg-light rounded">
+                  <a
+                    href="#"
+                    class="most-read__link d-flex align-items-center py-4 px-3 text-dark text-decoration-none"
+                  >
+                    <span class="most-read__number px-2 text-warning">1</span>
+                    <span class="most-read__text px-2">
+                      The Rise of the Audiobook, by Andrea Simone
+                    </span>
+                  </a>
+                </section>
+
+                <section class="mb-3 bg-light rounded">
+                  <a
+                    href="#"
+                    class="most-read__link d-flex align-items-center py-4 px-3 text-dark text-decoration-none"
+                  >
+                    <span class="most-read__number px-2 text-warning">2</span>
+                    <span class="most-read__text px-2"
+                      >New York 1894 review, by Michael Sanderon</span
+                    >
+                  </a>
+                </section>
+
+                <section class="mb-3 bg-light rounded">
+                  <a
+                    href="#"
+                    class="most-read__link d-flex align-items-center py-4 px-3 text-dark text-decoration-none"
+                  >
+                    <span class="most-read__number px-2 text-warning">3</span>
+                    <span class="most-read__text px-2">
+                      The Themes of Don Pablo, by Maria Sanchez
+                    </span>
+                  </a>
+                </section>
+
+                <section class="mb-3 bg-light rounded">
+                  <a
+                    href="#"
+                    class="most-read__link d-flex align-items-center py-4 px-3 text-dark text-decoration-none"
+                  >
+                    <span class="most-read__number px-2 text-warning">4</span>
+                    <span class="most-read__text px-2">
+                      The Future of Reading, by Andrea Simone
+                    </span>
+                  </a>
+                </section>
+
+                <section class="mb-3 bg-light rounded">
+                  <a
+                    href="#"
+                    class="most-read__link d-flex align-items-center py-4 px-3 text-dark text-decoration-none"
+                  >
+                    <span class="most-read__number px-2 text-warning">5</span>
+                    <span class="most-read__text px-2"
+                      >100 Days of Solitude review, by Andy O'Neil</span
+                    >
+                  </a>
+                </section>
+              </section>
+
+              <section class="container-fluid col-12 col-md-6 col-lg-12">
+                <section class="row">
+                  <section class="col-12 px-0">
+                    <h4 class="py-3 mb-3 text-center bg-warning rounded">
+                      Today's Offers
+                    </h4>
+                  </section>
+
+                  <section class="col-12">
+                    <a
+                      href="#"
+                      class="offer__link row mb-3 link-dark text-decoration-none rounded bg-light"
+                    >
+                      <div
+                        class="col-12 col-sm-6 d-flex align-items-center px-3 py-3 bg-light rounded"
+                      >
+                        <img
+                          src="img/offers1-lg.jpg"
+                          srcset="
+                            img/offers1-lg.jpg 1000w,
+                            img/offers1-md.jpg  700w,
+                            img/offers1-sm.jpg  400w
+                          "
+                          sizes="(min-width: 1000px) 1000px, (min-width: 800px) 700px, (min-width: 600px) 400px, (min-width: 400px) 700px, 400px"
+                          alt="A book on special offer"
+                          class="img-fluid rounded"
+                        />
+                      </div>
+                      <div
+                        class="col-12 col-sm-6 d-flex flex-column align-items-center justify-content-center py-3 px-3 bg-light text-center rounded"
+                      >
+                        <p>Tomorrow Today, by Elena Watson</p>
+                        <s class="text-danger">£12.99</s>
+                        <h5>£7.99</h5>
+                      </div>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="offer__link row mb-3 link-dark text-decoration-none rounded bg-light"
+                    >
+                      <div
+                        class="col-12 col-sm-6 d-flex align-items-center px-3 py-3 bg-light rounded"
+                      >
+                        <img
+                          src="img/offers2-lg.jpg"
+                          srcset="
+                            img/offers2-lg.jpg 1000w,
+                            img/offers2-md.jpg  700w,
+                            img/offers2-sm.jpg  400w
+                          "
+                          sizes="(min-width: 1000px) 1000px, (min-width: 800px) 700px, (min-width: 600px) 400px, (min-width: 400px) 700px, 400px"
+                          alt="A book on special offer"
+                          class="img-fluid rounded"
+                        />
+                      </div>
+                      <div
+                        class="col-12 col-sm-6 d-flex flex-column align-items-center justify-content-center py-3 px-3 bg-light text-center rounded"
+                      >
+                        <p>The Winter Deer, by Peter Jacobs</p>
+                        <s class="text-danger">£9.99</s>
+                        <h5>£4.99</h5>
+                      </div>
+                    </a>
+
+                    <a
+                      href="#"
+                      class="offer__link row mb-3 link-dark text-decoration-none rounded bg-light"
+                    >
+                      <div
+                        class="col-12 col-sm-6 d-flex align-items-center px-3 py-3 bg-light rounded"
+                      >
+                        <img
+                          src="img/offers3-lg.jpg"
+                          srcset="
+                            img/offers3-lg.jpg 1000w,
+                            img/offers3-md.jpg  700w,
+                            img/offers3-sm.jpg  400w
+                          "
+                          sizes="(min-width: 1000px) 1000px, (min-width: 800px) 700px, (min-width: 600px) 400px, (min-width: 400px) 700px, 400px"
+                          alt="A notepad on special offer"
+                          class="img-fluid rounded"
+                        />
+                      </div>
+                      <div
+                        class="col-12 col-sm-6 d-flex flex-column align-items-center justify-content-center py-3 px-3 bg-light text-center rounded"
+                      >
+                        <p>Bookworm Notepad</p>
+                        <s class="text-danger">£6.99</s>
+                        <h5>£3.99</h5>
+                      </div>
+                    </a>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <section>
+        <section class="row py-4 px-3 px-sm-5 align-items-start">
+          <div
+            class="col-sm-12 col-md-3 pb-sm-2 pb-md-0 text-center text-md-left"
+          >
+            <h3>Bookworm <i class="bi bi-book"></i></h3>
+            <h6 class="text-secondary">Everything books</h6>
+          </div>
+
+          <div class="col-sm-6 col-md-3 pb-sm-2 pb-md-0">
+            <ul class="footer__list">
+              <h6>Our site:</h6>
+              <li>
+                <a href="#" class="text-decoration-none link-dark">About us</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none link-dark">Bookshop</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none link-dark">Articles</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-6 col-md-3 pb-sm-2 pb-md-0">
+            <ul class="footer__list">
+              <li>
+                <h6>Contact us:</h6>
+                <a href="#" class="text-decoration-none link-dark">
+                  <i class="bi bi-house-fill"></i> 25 Book Lane, London, E1 6AN
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none link-dark">
+                  <i class="bi bi-envelope-at-fill"></i> bookworm@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none link-dark">
+                  <i class="bi bi-phone-vibrate-fill"></i> 077943535</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-12 col-md-3 text-center">
+            <p>&copy; Duncan Bounds, 2023</p>
+          </div>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

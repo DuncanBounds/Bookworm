@@ -1,0 +1,149 @@
+/*---------------RESET-----------------*/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/*-----------------HEADER-------------------*/
+
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 193, 7, 0.8),
+      rgba(255, 193, 7, 0.8)
+    ),
+    url(img/header-background2.jpg);
+  object-fit: cover;
+}
+
+/*------------MAIN ARTICLE SECTION--------------*/
+
+.article__col--primary {
+  gap: 0.4rem;
+}
+
+/*------------ARTICLE AUTHOR INFO---------------*/
+
+.author {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.author__img {
+  width: 2.8rem;
+  height: 2.8rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*------------MAIN ARTICLE TEXT SECTION---------------*/
+
+.article__container {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.paragraph {
+  display: flow-root;
+}
+
+.paragraph__blockquote--left,
+.paragraph__blockquote--right {
+  shape-outside: margin-box;
+  height: 10rem;
+  width: 10rem;
+}
+
+.paragraph__blockquote--left {
+  margin-right: 0.8rem;
+  float: left;
+}
+
+.paragraph__blockquote--right {
+  margin-left: 0.8rem;
+  float: right;
+}
+
+/*------------MOST READ AND OFFERS SECTIONS---------------*/
+
+.most-read__number {
+  background-color: #332d2d;
+  border-radius: 50%;
+}
+
+.most-read__text {
+  transition: all 0.3s;
+}
+
+.most-read__link:hover .most-read__text {
+  text-decoration: underline;
+}
+
+/*------------TODAY'S OFFERS SECTION---------------*/
+
+.offer__container {
+  overflow: hidden;
+}
+
+.offer__link p {
+  transition: all 0.3s;
+}
+
+.offer__link:hover p {
+  text-decoration: underline;
+}
+
+/*--------------------FOOTER-------------------*/
+
+.footer {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 193, 7, 0.8),
+      rgba(255, 193, 7, 0.8)
+    ),
+    url(img/header-background2.jpg);
+  object-fit: cover;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+/*------------------MEDIA QUERIES--------------------*/
+
+@media only screen and (max-width: 576px) {
+  .navbar {
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .paragraph__blockquote--left {
+    float: none;
+    height: 6.4rem;
+    width: 6.4rem;
+    width: 100%;
+    margin-right: 0;
+  }
+  .paragraph__blockquote--right {
+    float: none;
+    height: 6.4rem;
+    width: 6.4rem;
+    width: 100%;
+    margin-left: 0;
+  }
+}
